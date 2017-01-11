@@ -1,0 +1,38 @@
+.release-dropdownwrap{
+    float: left;
+    height:30px;
+    width:100px;
+}
+.release-dropdwon{
+    background: url(../images/icon-down.png) right center no-repeat;
+    padding:0 18px 0 0;
+    display: block;
+    float: left;
+    position: relative;
+    line-height: 38px;
+    border:none;
+    outline: none;
+    color:#000000;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    cursor: pointer;
+}
+.release-dropdwon:hover,.release-dropdwon:active{
+    background-color:transparent;
+}
+.release-dropdwon:hover, .release-dropdwon:focus, .release-dropdwon:active, .release-dropdwon.active, .open>.dropdown-toggle.release-dropdwon{
+    outline:none;
+    background:transparent url(../images/icon-down.png) right center no-repeat;;
+    border:none;
+}
+.dropdown-menu{
+	background-color:#606060;
+}
+.dropdown-menu>li>a{
+	color:#ffffff;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+	background:#484848;
+	color:#fff;
+	
+}

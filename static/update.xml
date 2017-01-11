@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note>
+	<version>66</version>
+	<mandatory>0</mandatory>
+	<name>TrueIM</name>
+	<url>http://api.trueway.com.cn:26065/static/tm.apk</url>
+	<msg>
+修复部分bug,
+对发送图片进行优化,
+对推送进行优化等
+             </msg>
+	<ios>
+		<version>4.8</version>
+		<mandatory>1</mandatory>
+		<name>TrueIM</name>
+		<iosmsg>修复部分bug,
+优化时区变化对时间的影响，
+优化收到推送显示到列表中功能等</iosmsg>
+		<url>itms-services://?action=download-manifest&amp;url=https://api.trueway.com.cn/im_iphone/zwtx.plist</url>
+	</ios>
+	<pc>
+		<version>20</version>
+		<mandatory>1</mandatory>
+		<name>TrueIM</name>
+		<msg>1. 消息记录增加右键菜单
+		2. 优化群共享文件显示
+		3. 群共享文件下载后增加打开按钮
+		4. 其他bug修改</msg>
+		<url>http://api.trueway.com.cn:26065/static/tm.apk</url>
+	</pc>
+</note>

@@ -1,0 +1,362 @@
+/*	通用弹出层  */
+.ui_title_wrap, .ui_bottom button { font-size:12px 'Microsoft Yahei', Arial; }
+.ui_content_wrap { min-width:9em; }/*设置对话框最小尺寸*/
+.ui_dialog, .ui_dialog_main { border:1px solid #7D7A7B!important; }
+.ui_border { background-color:#72B9E5; filter:alpha(opacity=80); opacity:0.8; }/*设置外边框透明度*/
+.ui_focus .ui_border { filter:alpha(opacity=50); opacity:0.5; }
+.ui_move .ui_border { filter:alpha(opacity=40); opacity:0.4; }
+.ui_td_00, .ui_td_02, .ui_td_20, .ui_td_22 { width:6px; height:6px; }/*设置边框厚度*/
+.ui_overlay div { background:#000; filter:alpha(opacity=50); opacity:0.5; }/*设置遮罩颜色与透明度*/
+.ui_focus .ui_dialog_main { -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7); -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7); box-shadow: 0 0 3px rgba(0, 0, 0, 0.7); }
+.ui_focus .ui_td_21 { -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); }/*CSS3投影*/
+.ui_move .ui_td_21 { -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none; }
+.ui_dialog_main { background-color:#FFF; }
+.ui_title { position:relative; height:100%; border-bottom:2px solid #EBEBEB; }
+.ui_move .ui_title { border-bottom:2px solid #FFF; }
+.ui_title_text { height:25px; line-height:25px; padding:2px 25px 0 10px; background-color:#3A6EA5; font-weight:700; font-size:12px;color:#004191;border-style:solid; border-bottom-width:1px; border-top-width:0px; border-right-width:0px; border-left-width:0px; border-color:#72B9E5 #72B9E5 #72B9E5 #72B9E5;}
+.ui_move .ui_title_text { color:#FFF; }
+.ui_focus .ui_title_text { background-color:#baddf1; }/*标题颜色*/
+.ui_close { padding:0; top:6px; right:6px; width:13px; height:13px; line-height:13px; text-align:center; color:#000!important; text-decoration:none; border:1px solid #3A6EA5; }
+.ui_focus .ui_close { border:0px solid;}
+.ui_close:hover { text-decoration:none; background-color:; border:0px solid; cursor:pointer; }
+.ui_close:active { background-color:; }
+.ui_content { color:#666; }
+.ui_focus .ui_content { color:#000; }
+.ui_resize { width:8px; height:8px; }
+.ui_loading_tip { color:#808080; }/*loading提示*/
+.ui_move_temp div { background-color:#214FA3; filter:alpha(opacity=40); opacity:0.4; }/*拖动用的替身对话框*/
+.ui_btns { background-color:#F6F6F6; border-top:1px solid #EBEBEB; border-bottom:1px solid #CCC; -moz-box-shadow: inset 0 -2px 2px rgba(204, 204, 204, 0.3); -webkit-box-shadow: inset 0 -2px 2px rgba(204, 204, 204, 0.3); box-shadow: inset 0 -2px 2px rgba(204, 204, 204, 0.3); }
+.ui_btns button { padding:2px 4px; letter-spacing:2px; }
+* html .ui_ie6_select_mask { left:-1px!important; top:-1px!important; }
+
+/*没有标题栏*/
+.noTitleBar .ui_title_wrap { height:0; _display:none; visibility:hidden; }
+/*去除所有背景*/
+.noSkin .ui_border, .noSkin .ui_title_wrap, .noSkin .ui_dialog_icon { display:none; }
+.noSkin .ui_bottom_wrap { display:none; *display:block; *height:0; overflow:hidden; }
+* html .noSkin .ui_btns { height:0; overflow:hidden; position:absolute; left:-99999em; }
+.noSkin .ui_content { margin:0; }
+.noSkin .ui_dialog_main { background:transparent; border:none 0!important; }
+.noSkin .ui_content_wrap { min-width:inherit; _width:auto; }
+/* 阅读模式弹出层 */
+#windownbg {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #000;/*body-bg*/
+	top: 0;
+	left: 0;
+}
+#windown-box {
+	position: fixed;
+	_position: absolute;/*For IE 6.0*/
+	border: 3px solid #EFF7FB;
+	background: #FFF;
+	text-align: left;
+}
+#windown-title {
+	position: relative;
+	height: 28px;
+	border: 1px solid #72B9E5;
+	overflow: hidden;
+	background-color:#baddf1;
+	/*background: url(/pertool_subsite/skins/blue/images/tips/bg.png) 0 -330px repeat-x;*/
+}
+#windown-title h2 {
+	position: relative;
+	left: 10px;
+	top: 6px;
+	font-size: 14px;
+	color: #004191;
+}
+#windown-close {
+	position: absolute;
+	right: 10px;
+	top: 6px;
+	width: 10px;
+	height: 16px;
+	text-indent: -10em;
+	overflow: hidden;
+	background: url(/pertool_subsite/skins/blue/images/tips/icon.png) -820px -720px no-repeat;
+	cursor: pointer;
+}
+#windown-content-border {
+	position: relative;
+	top: -1px;
+	border: 1px solid #72B9E5;
+	padding: 5px 0 5px 5px;
+	background: url(/pertool_subsite/skins/blue/images/tips/bg.png) 0 -380px repeat-x;
+}
+#windown-content {
+	position: relative;
+	overflow: auto;
+	text-align: left;
+	text-align:left;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#windown-content img,#windown-content iframe{
+	display: block;
+}
+#windown-content .loading {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -8px;
+	margin-top: -8px;
+}
+
+/* wechat css */
+
+ul.msg_nav{
+background-color: #fff;
+height: 41px;
+line-height: 41px;
+font-family: Arial, sans-serif;
+font-size: 14px;
+border-bottom: 1px solid #ececec;
+}
+.msg_nav li{
+display: block;
+float: left;
+padding-left: 20px;
+padding-right: 20px;
+color: #8d8d8d;
+font-size: 14px;
+}
+.msg_nav a{
+font-size: 14px;
+}
+.msg_nav li span{
+padding-left: 2px;
+}
+.msg_nav .selected{
+color: #222;
+}
+#click_tr{
+	border:1px solid #ececec;
+}
+.media_cover{
+padding: 82px;
+border: 2px dotted #d9dadc;
+display: block;
+}
+.menu_cover{
+float: left;
+width: 48%;
+margin-right: 2%;
+text-align: center;
+}
+.msg_cover{
+border: 1px solid #ececec;
+}
+.menu_cover a{
+cursor: pointer;
+}
+
+ul li{
+	float: left;
+}
+div.li{
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+div.image{
+	width: 250px;
+	border: 1px;
+}
+.news_media_con{
+width: 300px;
+}
+.news_media_list{
+border:1px solid #ececec;
+width: 200px;
+}
+.news_media_list_item{
+width: 200px;
+}
+.news_item_cover{
+position: relative;
+}
+.news_item_title{
+background: rgba(0,0,0,0.6) none repeat scroll 0 0 !important;
+bottom: 0;
+left: 0;
+position: absolute;
+right: 0;
+color: white;
+line-height: 28px;
+font-size: 14px;
+}
+.news_item_pre{
+height: 120px;
+overflow: hidden;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.hover .item_edit{
+display: block;
+bottom: -1px;
+width: 100%;
+height: 40px;
+line-height: 40px;
+top: auto;
+text-align: right;
+position: absolute;
+background-color: rgba(102, 102, 102, 0.5);
+margin-left: -10px;
+color: #666;
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#80000000',endcolorstr='#80000000');
+}
+.item_edit{
+display: none;
+}
+.first .item_edit{
+	margin-left: 0px;
+}
+.item_edit a.up{
+	float: left;
+	background: url(./wechat.png) no-repeat 0px -5840px;
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+	margin: 10px 8px 0px 8px;
+}
+.item_edit a.down{
+	float: left;
+	background: url(./wechat.png) no-repeat 0px -5870px;
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+	margin: 10px 8px 0px 8px;
+}
+.item_edit a.del{
+	float: right;
+	background: url(./wechat.png) no-repeat 0px -5900px;
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+	margin: 10px 8px 0px 8px;
+}
+.news_item_cover h4{
+ margin-top: 8px;
+line-height: 24px;
+ }
+ .fst_item{
+ 	display: none;
+ }
+.first .fst_item{
+	display: block;
+	position: relative;
+}
+.news_item{
+clear: both;
+height: 0;
+padding: 10px;
+position: relative;
+height: 88px;
+border-bottom:1px solid #ececec;
+}
+.first .news_item{
+	display: none;
+}
+
+.news_item .news_item_cover{
+float: right;
+height: 78px;
+width: 78px;
+overflow: hidden;
+margin-left: 14px;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+h4{
+font-size: 14px;
+font-weight: bold;
+text-align: left;
+}
+.news_item h4{
+font-size: 14px;
+margin-top: 8px;
+word-break: break-all;
+width: 87px;
+}
+
+.tabs{
+    height:100%;
+}
+.tabs .tabsHeader{
+    height:30px;
+    border-bottom: 1px solid #cccbc7;
+}
+.tabs .tabsHeaderContent {
+    height: 30px;
+}
+.tabs .tabsHeader ul {
+    height: 28px;
+    padding-top: 2px;
+}
+.tabs .tabsHeader li{
+    height:28px;
+    background-color: #88c0e3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.tabs .tabsHeader li.selected{
+    background-color: #48a5df;
+}
+.tabs .tabsHeader li.selected span{
+    color:#000;
+}
+.tabs .tabsHeader li a{
+    height:28px;
+}
+.tabs .tabsHeader li span{
+    height:28px;
+    color:#fff;
+}
+.tabs .tabsContent{
+    background: none;
+    border:none;
+}
+/***table****/
+.formtb{
+    width:100%;
+}
+.formtb td{
+    border:1px dashed #c9ced1;
+}
+.formtb input{
+height:28px;
+line-height:28px;
+}
+.fc{
+    width:16%;
+    height:36px;
+    background-color: #f3f6f9;
+    text-align: right;
+    line-height: 36px;
+}
+.fc label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+.formBar{
+    border:none;
+    background: none;
+}
+.btn-wrap{
+    width:200px;
+    margin:0 auto;
+}
+.mr8{
+    margin-right: 8px;
+}
+
+/* wechat css */

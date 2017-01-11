@@ -1,0 +1,132 @@
+2017/01/10 15:10:57 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 15:10:57 [C] [asm_amd64.s:2086] ListenAndServe:  listen tcp :10001: bind: address already in use
+2017/01/10 15:14:31 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 15:14:40 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234
+2017/01/10 15:49:19 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 15:51:54 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234
+2017/01/10 15:51:54 [C] [asm_amd64.s:479] the request url is  /api/userlogin
+2017/01/10 15:51:54 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/01/10 15:51:54 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/01/10 15:51:54 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/01/10 15:51:54 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/01/10 15:51:54 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/sigpanic_unix.go:24
+2017/01/10 15:51:54 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/api.go:233
+2017/01/10 15:51:54 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/api.go:43
+2017/01/10 15:51:54 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/01/10 15:51:54 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/01/10 15:51:54 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/01/10 15:51:54 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/01/10 15:53:50 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 15:53:55 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234
+2017/01/10 15:53:55 [C] [asm_amd64.s:479] the request url is  /api/userlogin
+2017/01/10 15:53:55 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/01/10 15:53:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/01/10 15:53:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/01/10 15:53:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/01/10 15:53:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/sigpanic_unix.go:24
+2017/01/10 15:53:55 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/api.go:237
+2017/01/10 15:53:55 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/api.go:43
+2017/01/10 15:53:55 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/01/10 15:53:55 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/01/10 15:53:55 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/01/10 15:53:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/01/10 15:55:31 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 15:55:33 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234
+2017/01/10 15:58:35 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234
+2017/01/10 15:59:30 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234
+2017/01/10 15:59:32 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234
+2017/01/10 16:02:05 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:02:21 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:07:32 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 16:07:36 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:07:36 [E] [api.go:43] insert login info err :  Error 1146: Table 'tm_customer.t_login_times' doesn't exist
+2017/01/10 16:28:40 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 16:29:45 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:30:12 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:30:12 [E] [api.go:43] insert login info err :  Error 1062: Duplicate entry '0' for key 'PRIMARY'
+2017/01/10 16:37:10 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:37:10 [E] [api.go:43] insert login info err :  Error 1062: Duplicate entry '0' for key 'PRIMARY'
+2017/01/10 16:40:08 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 16:40:19 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:40:26 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:40:29 [E] [api.go:43] insert login info err :  Error 1062: Duplicate entry '0' for key 'PRIMARY'
+2017/01/10 16:42:37 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 16:42:40 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:43:36 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 16:43:49 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:43:49 [E] [api.go:43] insert login info err :  Error 1364: Field 'id' doesn't have a default value
+2017/01/10 16:50:57 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 16:51:04 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:51:09 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:55:34 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 16:55:48 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 16:56:00 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 17:05:20 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 17:05:23 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag
+2017/01/10 17:05:56 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 17:07:30 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 17:07:35 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 17:31:23 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 17:31:34 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 17:32:34 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 17:57:53 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 17:58:33 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 17:58:41 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 17:59:57 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 18:00:01 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 18:01:55 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 18:02:55 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 18:03:38 [I] [api.go:43] userlogin params :  /api/userlogin?username=15151000000&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 18:03:38 [C] [asm_amd64.s:479] the request url is  /api/userlogin
+2017/01/10 18:03:38 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/01/10 18:03:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/01/10 18:03:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/01/10 18:03:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/01/10 18:03:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/sigpanic_unix.go:24
+2017/01/10 18:03:38 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/api.go:261
+2017/01/10 18:03:38 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/api.go:43
+2017/01/10 18:03:38 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/01/10 18:03:38 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/01/10 18:03:38 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/01/10 18:03:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/01/10 18:04:49 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 18:04:53 [I] [api.go:43] userlogin params :  /api/userlogin?username=15151000000&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 18:05:58 [I] [api.go:43] userlogin params :  /api/userlogin?username=15151000000&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 18:06:38 [I] [api.go:43] userlogin params :  /api/userlogin?username=15151000001&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 18:06:49 [I] [api.go:43] userlogin params :  /api/userlogin?username=15151000001&password=true1234&terminalType=iphone&phoneType=iphone5s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 18:07:19 [I] [api.go:43] userlogin params :  /api/userlogin?username=15151000001&password=true1234&terminalType=iphone&phoneType=iphone6s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 18:07:34 [I] [api.go:43] userlogin params :  /api/userlogin?username=15151000001&password=true1234&terminalType=iphone&phoneType=iphone6s&sysVersion=9.3.2&deviceId=jfjgjslajklsjdag&appVersion=32
+2017/01/10 18:53:42 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 18:54:05 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234
+2017/01/10 18:54:09 [I] [api.go:43] userlogin params :  /api/userlogin?username=18651385283&password=true1234
+2017/01/10 18:54:45 [C] [asm_amd64.s:479] the request url is  /api/loginTimes
+2017/01/10 18:54:45 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/01/10 18:54:45 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/01/10 18:54:45 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/01/10 18:54:45 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/01/10 18:54:45 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/sigpanic_unix.go:24
+2017/01/10 18:54:45 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/api.go:280
+2017/01/10 18:54:45 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/api.go:46
+2017/01/10 18:54:45 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/01/10 18:54:45 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/01/10 18:54:45 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/01/10 18:54:45 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/01/10 18:55:18 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 18:55:22 [C] [asm_amd64.s:479] the request url is  /api/loginTimes
+2017/01/10 18:55:22 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/01/10 18:55:22 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/01/10 18:55:22 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/01/10 18:55:22 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/01/10 18:55:22 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/sigpanic_unix.go:24
+2017/01/10 18:55:22 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/api.go:281
+2017/01/10 18:55:22 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/api.go:46
+2017/01/10 18:55:22 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/01/10 18:55:22 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/01/10 18:55:22 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/01/10 18:55:22 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/01/10 18:57:13 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/10 19:02:14 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/11 15:44:52 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/01/11 15:46:29 [E] [server.go:2202] html/template:im.tpl: "<" in attribute name: "\n\t</head>\n\t<body>\n\t\t<style>\n\t\t\t."
+2017/01/11 15:59:31 [E] [server.go:2202] html/template:im.tpl: "<" in attribute name: "\n\t</head>\n\t<body>\n\t\t<style>\n\t\t\t."
+2017/01/11 16:54:48 [I] [asm_amd64.s:2086] http server Running on http://:10001

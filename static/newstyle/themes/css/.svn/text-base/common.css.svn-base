@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* 重置浏览器默认样式 */
+body {
+	margin:0;
+	background:#fff;
+}
+th,td,div,ul,li,input,select,a{
+	font-size:12px;
+	font-family:"宋体";
+}
+td,div{
+	color:#666666;
+}
+a{
+	color:#217fc6;
+	text-decoration:none;}
+a:hover{
+	color:#1a910e;
+}
+form{
+	margin:0;
+	padding:0;}
+img{
+	border:0;}
+ul,li,dl,dt,dd{
+	padding:0;
+	margin:0;
+	list-style:none;
+	}
+
+/*清除浮动*/
+.clear{
+	clear:both;
+	font-size:0;
+	line-height:0;
+	height:0;
+}
+.f_left{
+	float:left;
+	}
+.f_right{
+	float:right;
+	}
+	
+/*--显示/隐藏块--*/
+.block{
+	display:block;}
+.none{ 
+	display:none;}
+
+
+/*===============首页样式 审核 审查 批量===============*/
+body.home{
+	margin:13px 0 0 13px;
+}
+.homeWrap{
+	margin:13px 0 0 13px;
+	}
+
+.col_1,
+.col_2{ 
+	float:left;
+	margin-right:13px;
+	width:48%;
+}
+
+/*add 2014-03-15*/
+.gridWrap{
+	margin-bottom:13px;
+	border:1px #c9ced1 solid;
+	}
+.gridTitle{
+	height:40px;
+	background:url(./images/home_grid_sprite.gif) 0 0 repeat-x;
+	border-bottom:1px solid #c9ced1; 
+}
+.gridTitle h2{
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+	vertical-align: baseline;
+	cursor: default;
+	padding-left: 5px;
+	line-height: 40px;
+	float: left;
+}
+.gridTitle h2 b{ color:#000; font-weight:normal;font-family:"Microsoft Yahei";padding-left:8px;}
+.gridTitle .toolBar{float:right}
+.gridTitle .moreBtn{ float:right;background:url(./images/moreBtn.gif) 0 0 no-repeat;width:61px; height:25px; margin-top:6px;margin-right:20px;cursor:pointer;}
+
+.gridTitle .tools{ float:right;margin-top:10px;}
+.gridTitle .tools a{
+display:blok;
+margin-right:10px;
+}
+.gridTitle .tools a.examine{ background:url(./images/home_icon_sprite.png) 0 0 no-repeat; padding-left:18px;}
+.gridTitle .tools a.batchExamine{ background:url(./images/home_icon_sprite.png) 0 -40px no-repeat; padding-left:18px;}
+.gridTitle .tools a.delete{ background:url(./images/home_icon_sprite.png) 0 -80px no-repeat; padding-left:18px;}
+
+.gridWrap table th{ 
+	background:url(./images/home_grid_sprite.gif) 0 -50px repeat-x; 
+	border-bottom:1px solid #c9ced1;
+	height:26px;
+	text-align:left;
+	padding-left:5px;
+	color:#000;
+}
+.gridWrap table td{
+	/*border-bottom:1px solid #cbcbcb;*/
+	background:#fff;
+	height:26px;
+	line-height:33px;
+	padding-left:5px;
+	}
+.gridWrap table tr.hover td{background:#deedf7;}
+.gridWrap a{
+	 text-decoration:underline;
+	 }
+#changeModeBtn_f{
+	position:relative;
+	width:1px;
+	height:1px;
+	font-size:0;
+	line-height:0;
+	right:-94%;
+	top:-30px;
+	z-index:1;
+}
+#changeModeBtn_s {
+	position:absolute;
+	width:78px;
+	height:78px;
+	background:url(./images/changeModeBtn.png) no-repeat;	
+	z-index:1;
+	cursor:pointer;
+}

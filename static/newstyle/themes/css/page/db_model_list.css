@@ -1,0 +1,71 @@
+.tabs{
+    height:100%;
+}
+.tabs .tabsHeader{
+    height:30px;
+    border-bottom: 1px solid #cccbc7;
+}
+.tabs .tabsHeaderContent {
+    height: 30px;
+}
+.tabs .tabsHeader ul {
+    height: 28px;
+    padding-top: 2px;
+}
+.tabs .tabsHeader li{
+    height:28px;
+    background-color: #88c0e3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.tabs .tabsHeader li.selected{
+    background-color: #48a5df;
+}
+.tabs .tabsHeader li.selected span{
+    color:#000;
+}
+.tabs .tabsHeader li a{
+    height:28px;
+}
+.tabs .tabsHeader li span{
+    height:28px;
+    color:#fff;
+}
+.tabs .tabsContent{
+    background: none;
+    border:none;
+}
+/***table****/
+.formtb{
+    width:100%;
+}
+.formtb td{
+    border:1px dashed #c9ced1;
+}
+.formtb input{
+height:28px;
+line-height:28px;
+}
+.fc{
+    width:16%;
+    height:36px;
+    background-color: #f3f6f9;
+    text-align: right;
+    line-height: 36px;
+}
+.fc label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+.formBar{
+    border:none;
+    background: none;
+}
+.btn-wrap{
+    width:200px;
+    margin:0 auto;
+}
+.mr8{
+    margin-right: 8px;
+}

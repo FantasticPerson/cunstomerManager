@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+.zjbt_main{width:1020px; height:327px; overflow:hidden; *zoom:1; background:#FFF;}
+.nr{width:985px; height:310px; overflow:hidden; *zoom:1; margin-left:23px; margin-top:10px;}
+.xxgk{width:440px; overflow:hidden; *zoom:1;}
+.gov{ background:url(xxgk/xxgk_2014_10_30_01.jpg) no-repeat left center; height:114px; overflow:hidden; *zoom:1; margin-top:20px;}
+.anniu{width:384px; margin-left:54px; overflow:hidden; *zoom:1;}
+.ztan{width:440px; height:143px; overflow:hidden; *zoom:1; margin-top:20px;}
+.mt6{margin-top:6px; overflow:hidden;}
+.bxx{width:480px; overflow:hidden; *zoom:1; overflow:hidden; *zoom:1;}
+.ldxx{height:155px; width:480px; overflow:hidden; *zoom:1;}
+.ldxx ul{padding-left:4px; padding-top:10px;}
+.ldxx ul li{ background:url(wxbt_2014_10_28_19.jpg) left center no-repeat; padding-left:10px; line-height:26px; color:#5f5f5f;}
+.ldxx ul li a{color:#5f5f5f;}
+.ldxx ul li span{float:right; margin-right:10px; color:#5f5f5f;}
+.tit{height:33px; background:url(zxzx/zxzx_2014_10_30_01.jpg) repeat-x; line-height:33px; overflow:hidden;}
+.tit span{background:url(zjbt/zjbt_2014_10_30_08.jpg) no-repeat bottom center; width:78px; overflow:hidden; color:#b10000; height:33px; display:inline-block; text-align:center; font-size:14px; font-weight:bold;}

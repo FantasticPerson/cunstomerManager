@@ -1,0 +1,63 @@
+.progress{
+	width:304px;
+	margin:10px;
+}
+
+.progressbox{
+	margin-bottom:10px;
+	border:1px solid #6593CF;
+	background-color:#E9EFF6;
+}
+
+.progressbar{
+	background:url(../images/progress.gif) repeat-x 0 -13px;
+	height:13px;
+}
+
+.percent{
+	text-align:right;
+	height:20px;
+}
+
+body{
+	margin:0;
+	overflow:auto;
+}
+
+#bodyPanel {
+	padding:20px;
+}
+
+#swfu_ignoreBtn{
+	margin-right:10px;
+}
+
+#swfu_errormsg td{
+	border-bottom:1px solid #A3BAE9;
+}
+
+#swfu_msg{
+	width:320px;
+	height:200px;
+	margin:10px; 
+}
+
+#swf_content{
+	background-color:#FFFFFF;
+	border:1px solid #A3BAE9;
+	width:100%;
+	height:170px;
+	overflow:auto;
+}
+
+.upload_ico1{
+	line-height:16px;
+	background:url(../images/bullet_green.gif) no-repeat left middle;
+	padding-left:22px;
+}
+
+.upload_ico2{
+	line-height:16px;
+	background:url(../images/bullet_red.gif) no-repeat left middle;
+	padding-left:22px;
+}

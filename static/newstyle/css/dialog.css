@@ -1,0 +1,46 @@
+body{ margin:0; padding:0;}
+div{font-size:12px;}
+.dialogWrap{width:710px; height:580px; border:2px solid #494949; margin-top:100px; margin-left:100px;}
+.titleBar{ height:30px; line-height:30px; background:url(../images/titleBg.gif) repeat-x; color:#ffffff; font-size:14px; font-weight:bold;}
+.titleBar span{padding-left:6px;}
+.titleBar a{ width:17px; height:17px;display:block; float:right;margin-right:6px;margin-top:5px; background:url(../images/closeBtn.png) no-repeat 0 0; cursor:default;}
+.titleBar a:hover{ background:url(../images/closeBtn.png) no-repeat 0 -17px;}
+.titleBar a:active{ background:url(../images/closeBtn.png) no-repeat 0 -17px;}
+.contentBox{margin:5px 10px;font-size:12px; overflow:auto;}
+.contentTable td{ border-bottom:1px solid #ececec;}
+.formTip{ background:url(../images/icon.gif) 4px center no-repeat; padding-left:25px;font-size:12px;}
+.dialogWrap fieldset{
+border:1px solid #d7d7d7;margin-top:25px;
+}
+.dialogWrap legend{border:1px solid #d7d7d7; background:#f9f9f9; font-weight:bold; color:#414141;margin-left:15px; padding:5px 8px;}
+.legend{border:1px solid #d7d7d7; background:#f9f9f9; font-weight:bold; color:#414141;margin-left:15px; padding:5px 8px;}
+.textInput{ 
+	background:url(../images/textInputBg.gif) repeat-x; border:1px solid #cfcfcf; height:20px; line-height:20px; padding-left:3px;
+	z-index:15000;
+	outline:none;
+	}
+.width_205{ width:205px;}
+.buttonBar{ height:45px; padding-right:15px;padding-top:5px;}
+.buttonBar input{ float:right; margin-right:15px;}
+.buttonBar .confirmBtn{background:url(../images/BtnBg.png) 0 0 repeat-x; height:24px; border:1px solid #1288d0; color:#fff; padding-left:10px; padding-right:10px;}
+.buttonBar .confirmBtn:hover{background:url(../images/BtnBg.png) 0 -24px repeat-x;}
+.buttonBar .confirmBtn:active{background:url(../images/BtnBg.png) 0 -48px repeat-x;}
+.buttonBar .cancelBtn{background:url(../images/BtnBg.png) 0 -72px repeat-x;height:24px; border:1px solid #939393; color:#2b2b2b; padding-left:10px; padding-right:10px;}
+.buttonBar .cancelBtn:hover{background:url(../images/BtnBg.png) 0 -96px repeat-x;}
+.buttonBar .cancelBtn:active{background:url(../images/BtnBg.png) 0 -120px repeat-x;}
+.clear{ clear:both;}
+
+.wrapfix:after {
+    content: "."; 
+    display: block;
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+div.IPDiv{
+	background:#ffffff;width:250px;font-size:11pt;text-align:center;border: 1px #ccc solid;display: inline-block;margin: 10px !important;
+} 
+input.IPInput{
+	width:24;font-size:11pt;text-align:center;border-width:0;margin:2px 0;
+} 

@@ -1,0 +1,48 @@
+/* 重置浏览器默认样式 */
+body {
+	margin:0;
+	background:#fff;
+}
+th,td,div,ul,li,input,select,a{
+	font-size:12px;
+	font-family:"宋体";
+}
+td,div{
+	color:#666666;
+}
+a{
+	color:#217fc6;
+	text-decoration:none;}
+a:hover{
+	color:#1a910e;
+}
+form{
+	margin:0;
+	padding:0;}
+img{
+	border:0;}
+ul,li,dl,dt,dd{
+	padding:0;
+	margin:0;
+	list-style:none;
+	}
+
+/*清除浮动*/
+.clear{
+	clear:both;
+	font-size:0;
+	line-height:0;
+	height:0;
+}
+.f_left{
+	float:left;
+	}
+.f_right{
+	float:right;
+	}
+	
+/*--显示/隐藏块--*/
+.block{
+	display:block;}
+.none{ 
+	display:none;}

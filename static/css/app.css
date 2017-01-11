@@ -1,0 +1,77 @@
+body{
+	background-color: #ecf0f1;
+}
+#logo{
+	font-size: 24px;
+	color: #ffffff;
+}
+#loginform{
+	max-width: 320px;
+	margin-top: 50px;
+}
+.login-form{
+	margin-top: 20px;
+	background-color: #ecf0f1;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+}
+.login-form:before {
+  content: '';
+  border-style: solid;
+  border-width: 12px 12px 12px 0;
+  border-color: transparent #edeff1 transparent transparent;
+  height: 0;
+  position: absolute;
+  left: 140px;
+  top: -18px;
+  width: 0;
+  -webkit-transform: rotate(90deg);
+}
+.login-icon{
+	width: 128px;
+	margin: 0 auto;
+	text-align: center;
+	color: #ffffff;
+}
+.login-icon h4{
+	font-weight: normal;
+}
+.login-form input.login-field{
+	background-color: #ffffff;
+}
+.login-form input.login-field:-webkit-autofill{
+	background-color: #ffffff;
+}
+.form-group{
+	position: relative;
+}
+.form-group .glyphicon{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	z-index: 99;
+	color: #bdc3c7;
+}
+.login-link{
+	margin-top: 20px;
+	font-size: 12px;
+	text-align: center;
+	display: block;
+}
+.bs-docs-container{
+	margin-top: 100px;
+}
+.bs-sidebar{
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 10px;
+}
+.cred{
+	color: red;
+}
+.c666{
+	color: #666;
+}
+
+table tbody tr td {vertical-align: middle !important}

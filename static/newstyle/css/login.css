@@ -1,0 +1,33 @@
+body{ background:#edf2f5; margin:0 auto; padding:0;}
+form{ margin:0; padding:0;}
+div,input{ font-size:12px;}
+.topBox{ background:url(../default/images/login/topBox_bg.png) 0 0 repeat-x;width:100%; height:600px; text-align:center; position:relative;}
+.topBox_content{ background:url(../default/images/login/topBox_content.png) center center no-repeat;  width:951px; height:461px; position:absolute;top:60%; left:50%;margin:-230px 0 0 -475px;}
+.topBox_content .formBox{ float:right; margin-top:162px; margin-right:130px; width:180px;}
+.formBox .textInput{ background:transparent; border:0; height:20px; line-height:20px; width:146px; margin-left:16px; padding-left:3px;}
+.formBox .pwdBox{ margin-top:55px;}
+/*remenber pwd*/
+.remenberPwd{ margin-top:15px; text-align:left; width:200px; height:24px;}
+.remenberPwd div,.remenberPwd span{ float:left; height:24px; line-height:24px; margin-right:3px;}
+.remenberPwd .checkbox{ background:url(../default/images/login/topBox_checkbox.png) 0 -50px no-repeat; width:24px; height:24px;}
+.remenberPwd .checkbox_on{ background:url(../default/images/login/topBox_checkbox.png) 0 0 no-repeat; width:24px; height:24px;}
+
+.formBox .btnBox{ margin-top:15px; width:200px; height:38px;}
+.formBox .btnBox a{width:72px; height:35px;display:block; float:left; background:url(../default/images/login/topBox_button.png) no-repeat;margin-left:7px;}
+.formBox a.loginBtn{ background-position:0 0;margin-left:15px;}
+.formBox a.loginBtn:hver{background-position:0 -36px;}
+.formBox a.loginBtn:active{background-position:0 -72px;}
+.formBox a.resetBtn{ background-position:0 -108px;}
+.formBox a.resetBtn:hver{background-position:0 -144px;}
+.formBox a.resetBtn:active{background-position:0 -180px;}
+
+.bottomBox{ background:#edf2f5; height:94px; width:100%; position:relative;}
+.bottomBox_content{ width:951px; height:94px; position:absolute; bottom:0; left:50%; margin:0 0 -20px -475px;}
+.bottomBox_content div{ float:left;}
+.bottomBox_content .line{ height:91px; width:28px; background:url(../default/images/login/bottomBox_line.png) center 0 no-repeat;}
+.bottomBox_content .icon{width:76px; height:74px;margin:0 70px; background:url(../default/images/login/bottomBox_icon.png) no-repeat; cursor:pointer;}
+.bottomBox_content .icon_1{ background-position:center 0;}
+.bottomBox_content .icon_2{ background-position:center -74px;}
+.bottomBox_content .icon_3{ background-position:center -144px;}
+.bottomBox_content .icon_4{ background-position:center -218px;}
+.clear{clear:both; height:0; overflow:hidden}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{width:1020px; height:327px; overflow:hidden; *zoom:1; background:#FFF;}
+.ztbj{height:301px; width:963px; overflow:hidden; margin-left:31px; margin-top:11px;}
+.ysz{width:309px; height:309px; overflow:hidden; *zoom:1;}
+.dhys{width:56px; background:url(bmfw/bmfw_2014_10_30_02.jpg) repeat-y; overflow:hidden; *zoom:1; height:309px; float:left;}
+.dhys ul li{width:56px; height:44px; text-align:center; cursor:pointer;}
+.dhys ul li img{float:left;}
+.dhys ul li.fouce{ background:url(bmfw/bmfw_2014_10_30_01.jpg) no-repeat right center;}
+.mt7{margin-top:7px; overflow:hidden;}
+ul.list_ul{margin-left:9px; float:left;}
+ul.list_ul li{ background:url(zjbt/zjbt_2014_10_30_09.jpg) left center no-repeat; padding-left:10px; line-height:25px; color:#5f5f5f;}
+ul.list_ul li a{color:#5f5f5f;}
+ul.zjbt_list_ul li span{float:right; margin-right:10px; color:#5f5f5f;}
+.bm{width:220px; overflow:hidden; margin-top:8px; *zoom:1;}
+.dyg{width:359px; height:132px; overflow:hidden; *zoom:1;}
+.zx{width:359px; overflow:hidden; *zoom:1; margin-left:20px;}
+.tm{height:31px; overflow:hidden; background:url(zjbt/zjbt_2014_10_30_07.jpg) repeat-x; line-height:31px;}
+.tm ul li{ float:left; width:78px; height:31px; text-align:center; cursor:pointer; color:#b10000; font-size:14px; line-height:31px;}
+.tm ul li.fouce{ background:url(zjbt/zjbt_2014_10_30_08.jpg) left bottom no-repeat; color:#b10000; font-weight:bold; font-size:14px; line-height:31px;}

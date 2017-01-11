@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/products/!svn/ver/12988/trueCMS/TrueCMS3.1/WebRoot/js/CodeMirror/bin
+END
+release
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/products/!svn/ver/12988/trueCMS/TrueCMS3.1/WebRoot/js/CodeMirror/bin/release
+END
+source-highlight
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/products/!svn/ver/12988/trueCMS/TrueCMS3.1/WebRoot/js/CodeMirror/bin/source-highlight
+END
+lint
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/products/!svn/ver/12988/trueCMS/TrueCMS3.1/WebRoot/js/CodeMirror/bin/lint
+END
+compress
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/products/!svn/ver/12988/trueCMS/TrueCMS3.1/WebRoot/js/CodeMirror/bin/compress
+END
+authors.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/products/!svn/ver/12988/trueCMS/TrueCMS3.1/WebRoot/js/CodeMirror/bin/authors.sh
+END

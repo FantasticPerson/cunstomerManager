@@ -1,0 +1,380 @@
+/******************左侧导航******************************/
+.guidewrap{
+    width:96px;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background-color: #f2f2f2;
+}
+.guidecontent{
+    width:100%;
+}
+.uparrow,.downarrow{
+    display: block;
+    height:22px;
+    width:100%;
+    background:#fff;
+}
+.slidewrap{
+    width:100%;
+    overflow: hidden;
+}
+#guideList{
+    overflow: hidden;
+    position:relative;
+}
+#guideList li{
+    height:101px;
+    overflow: hidden;
+}
+#guideList li a{
+    width:83px;
+    height:93px;
+    display: block;
+    margin:0 auto;
+    background:url(./images/item-boder.jpg) left bottom repeat-x;
+}
+#guideList li a span{
+    width:100%;
+    height:83px;
+    background:url(./images/iconSprite.png) 0 0 no-repeat;
+    display: block;
+    margin-top:8px;
+}
+#guideList li .zdgl-icon{
+    background-position: 0 0;
+}
+#guideList li.hover .zdgl-icon{
+    background-position: 0 -288px;
+}
+#guideList li .xxgl-icon{
+    background-position: -86px 0;
+}
+#guideList li.hover .xxgl-icon{
+    background-position: -86px -288px;
+}
+#guideList li .xxjk-icon{
+    background-position: -172px 0;
+}
+#guideList li.hover .xxjk-icon{
+    background-position: -172px -288px;
+}
+#guideList li .zmhd-icon{
+    background-position: -258px 0;
+}
+#guideList li.hover .zmhd-icon{
+    background-position: -258px -288px;
+}
+#guideList li .bmfw-icon{
+    background-position: -344px 0;
+}
+#guideList li.hover .bmfw-icon{
+    background-position: -344px -288px;
+}
+#guideList li .tjfx-icon{
+    background-position: 0 -96px;
+}
+#guideList li.hover .tjfx-icon{
+    background-position: 0 -384px;
+}
+#guideList li .xtgl-icon{
+    background-position: -86px -96px;
+}
+#guideList li.hover .xtgl-icon{
+    background-position: -86px -384px;
+}
+#guideList li .gkyjx-icon{
+    background-position: -172px -96px;
+}
+#guideList li.hover .gkyjx-icon{
+    background-position: -172px -384px;
+}
+#guideList li .xxgkzd-icon{
+    background-position: -258px -96px;
+}
+#guideList li.hover .xxgkzd-icon{
+    background-position: -258px -384px;
+}
+#guideList li .xxgkzn-icon{
+    background-position: -344px -96px;
+}
+#guideList li.hover .xxgkzn-icon{
+    background-position: -344px -384px;
+}
+#guideList li .xxgknb-icon{
+    background-position: 0 -193px;
+}
+#guideList li.hover .xxgknb-icon{
+    background-position: 0 -480px;
+}
+#guideList li .ysqgk-icon{
+    background-position: -86px -193px;
+}
+#guideList li.hover .ysqgk-icon{
+    background-position: -86px -480px;
+}
+#guideList li .rdta-icon{
+    background-position: -172px -193px;
+}
+#guideList li.hover .rdta-icon{
+    background-position: -172px -480px;
+}
+#guideList li .nrsh-icon{
+    background-position: -258px -193px;
+}
+#guideList li.hover .nrsh-icon{
+    background-position: -258px -480px;
+}
+#guideList li .dmt-icon{
+    background-position: -344px -193px;
+}
+#guideList li.hover .dmt-icon{
+    background-position: -344px -480px;
+}
+/******add by Perhaps*************/
+#guideList li .bkdy-icon{
+    background-position: -756px -84px;
+}
+#guideList li.hover .bkdy-icon{
+    background-position: -756px 0;
+}
+#guideList li .clgl-icon{
+    background-position: -840px -84px;
+}
+#guideList li.hover .clgl-icon{
+    background-position: -840px 0;
+}
+#guideList li .dsj-icon{
+    background-position: -672px -252px;
+}
+#guideList li.hover .dsj-icon{
+    background-position: -672px -168px;
+}
+#guideList li .dzjc-icon{
+    background-position: -756px -252px;
+}
+#guideList li.hover .dzjc-icon{
+    background-position: -756px -168px;
+}
+#guideList li .gzjh-icon{
+    background-position: -840px -252px;
+}
+#guideList li.hover .gzjh-icon{
+    background-position: -840px -168px;
+}
+#guideList li .gzrw-icon{
+    background-position: 0 -420px;
+}
+#guideList li.hover .gzrw-icon{
+    background-position: 0 -336px;
+}
+#guideList li .gzrz-icon{
+    background-position: -84px -420px;
+}
+#guideList li.hover .gzrz-icon{
+    background-position: -84px -336px;
+}
+#guideList li .hygl-icon{
+    background-position: -168px -420px;
+}
+#guideList li.hover .hygl-icon{
+    background-position: -168px -336px;
+}
+#guideList li .rctx-icon{
+    background-position: -252px -420px;
+}
+#guideList li.hover .rctx-icon{
+    background-position: -252px -336px;
+}
+#guideList li .tsjy-icon{
+    background-position: -336px -420px;
+}
+#guideList li.hover .tsjy-icon{
+    background-position: -336px -336px;
+}
+#guideList li .txl-icon{
+    background-position: -420px -420px;
+}
+#guideList li.hover .txl-icon{
+    background-position: -420px -336px;
+}
+#guideList li .wsdc-icon{
+    background-position: -504px -420px;
+}
+#guideList li.hover .wsdc-icon{
+    background-position: -504px -336px;
+}
+#guideList li .xxzl-icon{
+    background-position: -588px -420px;
+}
+#guideList li.hover .xxzl-icon{
+    background-position: -588px -336px;
+}
+#guideList li .ywlt-icon{
+    background-position: -672px -420px;
+}
+#guideList li.hover .ywlt-icon{
+    background-position: -672px -336px;
+}
+#guideList li .zcgl-icon{
+     background-position: -756px -420px;
+ }
+#guideList li.hover .zcgl-icon{
+    background-position: -756px -336px;
+}
+#guideList li .zdgz-icon{
+    background-position: -840px -420px;
+}
+#guideList li.hover .zdgz-icon{
+    background-position: -840px -336px;
+}
+#guideList li .zxks-icon{
+    background-position: 0 -588px;
+}
+#guideList li.hover .zxks-icon{
+    background-position: 0 -504px;
+}
+#guideList li .zcgl-icon{
+    background-position: -84px -588px;
+}
+#guideList li.hover .zcgl-icon{
+    background-position: -84px -504px;
+}
+#guideList li .nbyj-icon{
+    background-position: -168px -588px;
+}
+#guideList li.hover .nbyj-icon{
+    background-position: -168px -504px;
+}
+#guideList li .ycc-icon{
+    background-position: -252px -588px;
+}
+#guideList li.hover .ycc-icon{
+    background-position: -252px -504px;
+}
+/*********end*********************/
+.arrow{
+    display: block;
+    width:96px;
+    height:30px;
+    background:url(./images/arrow.jpg) 0 0 no-repeat;
+}
+.uparrow{
+
+}
+.uparrow:hover{
+    background-position: -97px 0;
+}
+.downarrow{
+    background-position: 0 -31px;
+}
+.downarrow:hover{
+    background-position: -97px -31px;
+}
+/************************二级菜单*********************************/
+.sub-layout{
+    width:307px;
+    height:auto;
+    position:absolute;
+    z-index:1000;
+    left:0;
+    top:0;
+}
+.sub-top{
+    width:100%;
+    height:13px;
+    background:url(./images/subtop.png) right top no-repeat;
+}
+.sub-middle{
+    padding:0 15px;
+    height:auto;
+    background:url(./images/submiddle.png) right top repeat-y;
+    min-height: 200px;
+}
+.sub-bottom{
+    width:100%;
+    height:16px;
+    background:url(./images/subbottom.png) right top no-repeat;
+}
+.sub-middle{
+    padding-top: 15px;
+}
+.sub-row{
+}
+.sub-row h3{
+	text-align:left;
+    font-weight: bold;
+    color:#224585;
+    padding-left: 12px;
+    background: url(./images/bluearrow.png) 0 4px no-repeat;
+    margin-bottom: 15px;
+}
+.sub-row ul{
+    padding-left: 12px;
+}
+.sub-row ul li{
+    float: left;
+    margin-bottom: 12px;
+}
+.sub-row ul li a{
+    padding:0 8px;
+    display: block;
+    font-size: 12px;
+    height:14px;
+    line-height: 14px;
+    border-left:1px solid #747474;
+    color:#747474;
+}
+.sub-row ul li a:hover{
+    text-decoration: underline;
+}
+.triangle{
+    width:7px;
+    height:8px;
+    background: url(./images/triangle.png) 0 0 no-repeat;
+    position: absolute;
+    left:-4px;
+    top:41px;
+}
+.sitepos{
+	position:absolute;
+	left:10px;
+	top:66px;
+}
+.sitetab{
+	width:83px;
+	height:28px;
+	background:url(./images/sitetab.jpg) 0 0 no-repeat;
+	position:relative;
+}
+.sitetab span{
+display:block;
+height:28px;
+line-height:28px;
+margin-left:6px;
+font-size:14px;
+color:#020202;
+font-weight:bold;
+}
+.sitetab a{
+position:absolute;
+right:5px;
+top:11px;
+display:block;
+width:10px;
+height:6px;
+}
+#sitelist{
+display:none;
+background-color:#666666;
+border:1px solid #999999;
+
+}
+#sitelist li span{
+	color:#ffffff;
+	cursor:pointer;
+}
+#sitelist li:hover{
+	background-color: #484848;
+}

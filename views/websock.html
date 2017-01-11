@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>web soket</title>
+	<script type="text/javascript" src="js/swfobject.js"></script>  
+	<script type="text/javascript" >
+	
+	function sayString( str ){
+		alert(str);
+	}
+	
+	/*
+	* 连接通讯服务器
+	*/
+	function connect(){
+	    var vm = getSwfInstance('chatVM');
+		if (vm) {
+		    vm.CONNECT('admin','admin','192.168.5.16',5555,10007);
+		}		
+	}
+	
+	function test(){
+	    var vm = getSwfInstance('chatVM');
+		if (vm) {
+		var array=new Array('a','b','c')
+		    vm.TEST(12345678900);
+		}
+	}
+	
+	/*
+	* 发送消息
+	*/
+	function sendMessage(){
+	    var vm = getSwfInstance('chatVM');
+		if (vm) {
+		    vm.SEND_MESSAGE('对方id','hello flash');
+		}		
+	}
+	
+	/*
+	* 创建官方群
+	*/
+	function createOfficialGroup(){
+	    var vm = getSwfInstance('chatVM');
+		if (vm) {
+			var members = new Array()
+			members[0] = "23623697101226146" //汤海泉
+			members[1] = "23623697101226144" //施东海
+		    vm.CREATE_OFFICIAL_GROUP('admin','23623697101226146' ,'官方群汤施','',members,1);
+		}		
+	}
+	
+	/*
+	* 设置群状态
+	*/
+	function setOfficialGroupState(){
+	    var vm = getSwfInstance('chatVM');
+		if (vm) {
+		    vm.SET_OFFICIAL_GROUPSTATE('admin', '群id', 1);
+		}		
+	}
+	
+	/*
+	* 获取群列表
+	*/
+	function getAllOfficialGroup(){
+	    var vm = getSwfInstance('chatVM');
+		if (vm) {
+		    vm.GET_ALL_OFFICIAL_GROUP('admin',1);
+		}		
+	}
+	
+	/*
+	* 获取swf
+	*/
+	function getSwfInstance(movieName) { 
+        if (navigator.appName.indexOf("Microsoft") != -1) { 
+            return window[movieName]; 
+        } else { 
+            return document[movieName]; 
+        } 
+    } 
+	
+	/*
+	* 初始化swf
+	*/
+	function initSWF(){
+		//插入swf
+		  console.log("initSWF");
+		  
+		var flashvars = {
+			};
+			
+		var params = {
+			menu: "false",
+			scale: "noScale",
+			allowFullscreen: "true",
+			allowScriptAccess: "always",
+			bgcolor: "",
+			wmode: "transparent"
+		};
+		
+		var attributes = {
+			id:"chatVM",
+			name:"chatVM"
+		};
+		
+		swfobject.embedSWF(
+			"main.swf", 
+			"chatVM", "0", "0", "10.0.0", 
+			"static/expressInstall.swf", 
+			flashvars, params, attributes);
+	}
+	
+	/*
+	* as回调
+	*/
+	function AJ_SWFMSG(t,d){
+	    if(console&&console.log){
+			console.log(t,d);
+		}
+	}
+	
+ </script>
+  </head>
+   <body onload="initSWF();">
+   <div id="chatVM">
+</div>
+    <form>
+	<input type="button" value="TEST" onclick="javascript:test();" />
+      <input type="button" value="CONNECT" onclick="javascript:connect();" />
+	  <input type="button" value="SEND_MESSAGE" onclick="javascript:sendMessage();" />
+	   <input type="button" value="createOfficialGroup" onclick="javascript:createOfficialGroup();" />
+	   <input type="button" value="createOfficialGroup" onclick="javascript:setOfficialGroupState();" />
+	   <input type="button" value="createOfficialGroup" onclick="javascript:getAllOfficialGroup();" />
+	   
+	   
+    </form>
+  </body>
+</html>

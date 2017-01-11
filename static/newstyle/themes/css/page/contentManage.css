@@ -1,0 +1,37 @@
+#dpt_tb_wrap .grid .gridHeader th,#dpt_tb_wrap .grid .gridTbody td{
+    border-right: 1px dashed #cecece;
+}
+#dpt_tb_wrap .grid .gridHeader th{
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    color:#020202;
+}
+#dpt_tb_wrap .grid .gridHeader th.hover{
+    background: url(../../default/images/grid/CM_thbg.jpg) 0 0 repeat-x;
+}
+#dpt_tb_wrap .grid .gridHeader th div{
+    height:30px;
+    line-height: 30px;
+}
+#dpt_tb_wrap .grid .gridHeader th span{
+    line-height: 30px;
+}
+#dpt_tb_wrap .grid .gridHeader th input{
+    position: relative;
+    top:8px;
+}
+#dpt_tb_wrap .grid .gridHeader th.last_col{
+     border-right: 1px solid #cecece;
+ }
+#dpt_tb_wrap .grid .gridTbody td{
+    border-bottom: 1px dashed #cecece;
+    height:30px;
+    line-height: 30px;
+}
+#dpt_tb_wrap .grid .gridTbody td.last_col{
+    border-right: 1px solid #cecece;
+}
+#dpt_tb_wrap .grid .gridTbody tr.last_row td{
+    border-bottom:1px solid #cecece;
+}

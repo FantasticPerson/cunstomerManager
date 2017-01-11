@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+   *{color: #000000;
+    font-family: "宋体";
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;}
+
+.col{width:764px; overflow:hidden; *zoom:1; border:1px solid #C4DAF1; margin:0px auto;}
+.top{background:url(ysqgk_2014_0905_01.jpg) repeat-x; height:30px; overflow:hidden; *zoom:1;}
+.main{width:702px; overflow:hidden; *zoom:1; margin:0px auto;}
+.tit{height:40px; line-height:40px; text-align:center; margin-top:20px; overflow:hidden; *zoom:1;}
+.tit h1{font-size:16px; font-weight:bold;}
+.lj{height:22px; line-height:22px; overflow:hidden; *zoom:1;}
+.lj span{float:right; margin-left:3px; margin-right:3px;}
+.lj a{float:right;}
+.lj a:hover{color:#ff0000;}
+.ys{width:165px; height:18px; margin-left:10px; margin-top:4px; overflow:hidden; *zoom:1; border:1px solid #CCCCCC; text-align:left;}
+.com{color:#ff0000;}
+.ys1{width:462px; height:18px; margin-left:10px; margin-top:4px; overflow:hidden; *zoom:1; border:1px solid #CCCCCC; text-align:left;}
+.ys2{width:448px; height:63px; margin-left:10px; margin-top:4px; overflow:hidden; *zoom:1; border:1px solid #CCCCCC; text-align:left;}
+.lb{overflow:hidden; *zoom:1; text-align:left !important;}
+.lb ul{padding-left:5px; padding-top:5px;}
+.lb ul li{line-height:26px; overflow:hidden; *zoom:1;}
+.hk{line-height:28px;}
+.zt{width:560px; height:545px; overflow:hidden; *zoom:1; text-align:left;}
+.zt ul{padding-left:10px; padding-top:5px;}
+.zt ul li{line-height:24px; overflow:hidden; *zoom:1; text-align:left;}
+.zt ul li span{padding-left:5px;}
+.wz{width:640px; height:144px; margin-left:29px; margin-top:6px; overflow:hidden; *zoom:1; text-align:left; line-height:24px;}
+.wz h1{font-weight:bold; line-height:30px; text-align:left;}
+.wz ul li{line-height:22px; overflow:hidden; text-align:left;}
+.yz{width:70px; height:16px; overflow:hidden; border-bottom:1px solid #DBDFE6; border-left:1px solid #DBDFE6; border-right:1px solid #DBDFE6; border-top:1px solid #ABADB3;}
+.tz{width:58px; height:19px; overflow:hidden; *zoom:1;}
+.jl{margin-left:250px; overflow:hidden;}
+.ml200{margin-left:200px; overflow:hidden;}
+.qh{height:208px; width:608px; overflow:hidden;}
+.tma{height:28px; line-height:28px; border-bottom:1px solid #EFEFEF;}
+.tma ul{ padding-left:250px;}
+.tma ul li{ float:left;  padding-left:12px; cursor:pointer; color:#494949;  line-height:28px; font-size:12px; margin-left:20px; }
+.tma ul li.fouce{ background:url(ysqgk_2014_0905_07.jpg) no-repeat left center; padding-left:12px; line-height:28px;}
+.nr{overflow:hidden; *zoom:1;}

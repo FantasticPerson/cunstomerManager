@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	overflow:hidden;
+}
+
+*{
+	font-size:12px;
+	font-weight:normal;
+}
+
+body{
+	margin:0;
+	background-color:#000000;
+	overflow:hidden;
+}
+
+#info{
+	position:absolute;
+	right:0;
+	top:0;
+	background-color:#000000;
+	color:#FFFFFF;
+	z-index:1000;
+	padding:5px 10px;
+	border-radius: 0 0 0 5px;
+	-webkit-border-radius: 0 0 0 5px;
+	-moz-border-radius: 0 0 0 5px;
+	filter: alpha(opacity = 70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+
+#sImageInfo{
+	position:absolute;
+	left:0;
+	top:0;
+	background-color:#000000;
+	color:#FFFFFF;
+	z-index:1000;
+	padding:5px 10px;
+	border-radius: 0 0 0 5px;
+	-webkit-border-radius: 0 0 5px 0;
+	-moz-border-radius: 0 0 5px 0;
+	filter: alpha(opacity = 70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+
+
+#toolbar-bg {
+	position: absolute;
+	bottom: 30px;
+	background-color: #000000;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+
+#toolbar {
+	position: absolute;
+	bottom: 30px;
+	padding: 20px;
+	z-index: 10000;
+}
+
+#buttons {
+	margin: 0 0 0 20px;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#buttons li {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	margin-right: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+#drag {
+	background:url(hand.png) no-repeat center;
+	background-color: #333333;
+}
+
+#clip {
+	background:url(cut.png) no-repeat center;
+	background-color: #333333;
+}
+
+#save {
+	background:url(save.png) no-repeat center;
+	background-color: #333333;
+}
+
+#saveAs {
+	background:url(save.png) no-repeat center;
+	background-color: #333333;
+}

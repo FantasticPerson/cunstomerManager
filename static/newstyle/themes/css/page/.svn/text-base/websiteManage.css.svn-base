@@ -1,0 +1,244 @@
+#dptSite_tb_wrap .grid .gridHeader th,#dptSite_tb_wrap .grid .gridTbody td{
+    border-right: 1px dashed #cecece;
+}
+#dptSite_tb_wrap .grid .gridHeader th{
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    color:#020202;
+}
+#dptSite_tb_wrap .grid .gridHeader th.hover{
+    background: url(../../default/images/grid/CM_thbg.jpg) 0 0 repeat-x;
+}
+#dptSite_tb_wrap .grid .gridHeader th div{
+    height:30px;
+    line-height: 30px;
+}
+#dptSite_tb_wrap .grid .gridHeader th span{
+    line-height: 30px;
+}
+#dptSite_tb_wrap .grid .gridHeader th input{
+    position: relative;
+    top:8px;
+}
+#dptSite_tb_wrap .grid .gridHeader th.last_col{
+    border-right: 1px solid #cecece;
+}
+#dptSite_tb_wrap .grid .gridTbody td{
+    border-bottom: 1px dashed #cecece;
+    height:30px;
+    line-height: 30px;
+}
+#dptSite_tb_wrap .grid .gridTbody td.last_col{
+    border-right: 1px solid #cecece;
+}
+#dptSite_tb_wrap .grid .gridTbody tr.last_row td{
+    border-bottom:1px solid #cecece;
+}
+/******created by Perhaps***********/
+ body {
+            font-family: "微软雅黑";
+        }
+
+        .col1 {
+            width: 100%;
+            padding-bottom: 7px;
+        }
+
+        .col2 {
+            width: 100%;
+        }
+
+        .gridwrap {
+            margin-top: 12px;
+            width: 48%;
+        }
+
+        .gridhead {
+            height: 30px;
+            line-height: 30px;
+            border-bottom: 1px solid #dce0e3;
+            position: relative;
+        }
+
+        .gridhead h3 {
+            color: #000;
+            font-size: 20px;
+            padding-left: 26px;
+             height: 30px;
+            line-height: 30px;
+            background: url(../images/h3bg.png) 14px 4px no-repeat;
+        }
+
+        .operate {
+            position: absolute;
+            top: 0;
+            right: 40px;
+        }
+
+        .operate span {
+            display: none;
+        }
+
+        .icon_opt {
+            display: inline-block;
+            height: 27px;
+            float: left;
+            background: url(../images/iconSprite.png) 0 0 no-repeat;
+            margin-right: 5px;
+        }
+
+        .sp_opt {
+            width: 67px;
+            background-position: -563px -853px;
+        }
+
+        .sp_opt:hover {
+            background-position: -695px -853px;
+        }
+
+        .plsp_opt {
+            width: 88px;
+            background-position: -563px -1075px;
+        }
+
+        .plsp_opt:hover {
+            background-position: -695px -1075px;
+        }
+
+        .delete_opt {
+            width: 67px;
+            background-position: -563px -668px;
+        }
+
+        .delete_opt:hover {
+            background-position: -695px -668px;
+        }
+		.gridbody{
+			position:relative;
+			padding-bottom:36px;
+			height:320px;
+		}
+        .gridbody table {
+            margin-top: 6px;
+        }
+
+        .gridbody table th {
+            background-color: #f2f7fb;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            vertical-align: middle;
+            color: #248dc1;
+            font-size: 12px;
+        }
+
+        .gridbody table td {
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: #787878;
+            font-size: 12px;
+        }
+
+        .gridbody table td.tl {
+            text-align: left;
+            padding-left: 5px;
+        }
+
+        .gridbody table tr.hover td {
+            background-color: #f2ffea;
+        }
+
+        .gridbody .ckb {
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .tb-link {
+            color: #787878;
+        }
+
+        .tb-link:hover {
+            color: #248dc1;
+        }
+
+      .gridbody  .more {
+            display: block;
+            width: 60px;
+            height: 26px;
+            line-height: 26px;
+            padding-left: 34px;
+            color: #7b98ae;
+            font-size: 12px;
+            box-sizing:content-box;
+            position:absolute;
+            bottom:5px;
+            left:50%;
+            margin-left:-30px;
+        }
+
+        .gridbody table td.noinfo {
+            height: 276px;
+            background: url(../images/noinfo.jpg) center center no-repeat;
+        }
+        
+        .gridbody table.ellipsis {
+        	table-layout: fixed;
+        }
+        
+        .gridbody table td.ellipsis {
+            white-space:nowrap;
+            text-overflow:ellipsis;
+            overflow: hidden;
+        }
+
+        .bb1 {
+            border-bottom: 1px solid #d1d7db;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .index_container {
+            position: relative;
+        }
+
+        .v-line {
+            width: 1px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            background-color: #d1d7db;
+        }
+        .red{
+            color:#ff2a2a;
+        }
+        .gray{
+            color:#6b6b6b;
+        }
+        .icon-wsh,.icon-btg,.icon-tg{
+            width:56px;
+            height:17px;
+            display: inline-block;
+            background: url(../images/iconSprite.png) 0 0 no-repeat;
+            vertical-align: middle;
+        }
+        .icon-wsh{
+            background-position: -563px -22px;
+        }
+        .icon-btg{
+            background-position: -563px -83px;
+        }
+        .icon-tg{
+            background-position: -563px -52px;
+        }
+        
